@@ -33,7 +33,7 @@ var stepY;
 
 function setup() {
   createCanvas(800, 400);
-  noStroke();
+//noStroke();
   colorMode(HSB, width, height, 100);
 }
 
