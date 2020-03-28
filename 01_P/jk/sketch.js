@@ -44,7 +44,8 @@ function draw() {
 //
 //  fill(360 - mouseY / 2, 100, 100);
 //  rect(360, 360, mouseX + 1, mouseX + 1);
-  ellipse(mouseX, mouseY, mouseX / 2, mouseY / 2)
+  point(mouseX, mouseY)
+//ellipse(mouseX, mouseY, mouseX / 2, mouseY / 2)
 }
 
 function keyPressed() {
