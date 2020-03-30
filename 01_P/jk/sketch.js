@@ -16,7 +16,7 @@ function draw() {
 
   for (let gridX = 0; gridX < width; gridX += stepX) {
     for (let gridY = 0; gridY < height; gridY += stepY) {
-      fill(400, 100, 100)
+      fill(gridX, 100, 100)
       rect(gridX, gridY, stepX, stepY)
     }
   }
