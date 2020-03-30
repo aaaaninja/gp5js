@@ -11,15 +11,15 @@ function setup() {
 }
 
 function draw() {
-  for (let gridX = 0; gridX < width; gridX += 40) {
+  for (let gridX = 0; gridX < width; gridX += mouseX + 2) {
     fill(400, 100, 100)
-    rect(gridX, 0, gridX + 40, 100)
+    rect(gridX, 0, mouseX + 2, 100)
 
     fill(500, 100, 100)
-    rect(gridX, 100, gridX + 40, 100)
+    rect(gridX, 100, mouseX + 2, 100)
 
     fill(600, 100, 100)
-    rect(gridX, 200, gridX + 40, 100)
+    rect(gridX, 200, mouseX + 2, 100)
   }
 }
 
