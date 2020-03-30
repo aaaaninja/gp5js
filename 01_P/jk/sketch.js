@@ -12,16 +12,13 @@ function setup() {
 
 function draw() {
   const stepX = mouseX + 2
+  const stepY = mouseY + 2
 
   for (let gridX = 0; gridX < width; gridX += stepX) {
-    fill(400, 100, 100)
-    rect(gridX, 0, stepX, 100)
-
-    fill(500, 100, 100)
-    rect(gridX, 100, stepX, 100)
-
-    fill(600, 100, 100)
-    rect(gridX, 200, stepX, 100)
+    for (let gridY = 0; gridY < height; gridY += stepY) {
+      fill(400, 100, 100)
+      rect(gridX, gridY, stepX, stepY)
+    }
   }
 }
 
