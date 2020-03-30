@@ -1,3 +1,4 @@
+/// <reference path="../../node_modules/@types/p5/global.d.ts" />
 'use strict';
 
 function setup() {
