@@ -5,6 +5,9 @@ function setup() {
   colorMode(HSB, width, 100, 100)
 
   stroke(0, 100, 100)
+  for (let gridX = 0; gridX < width; gridX += 40) {
+    console.log(gridX)
+  }
 }
 
 function draw() {
