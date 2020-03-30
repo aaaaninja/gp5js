@@ -3,6 +3,8 @@
 function setup() {
   createCanvas(800, 400);
   colorMode(HSB, width, 100, 100)
+
+  stroke(0, 100, 100)
 }
 
 function draw() {
