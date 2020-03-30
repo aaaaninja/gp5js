@@ -3,6 +3,8 @@
 function setup() {
   createCanvas(720, 720)
   colorMode(HSB, 720, 100, 100)
+
+  rectMode(CENTER)
 }
 
 function draw() {
